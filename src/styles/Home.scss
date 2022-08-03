@@ -1,0 +1,15 @@
+.home {
+  background-color: red;
+  padding: 52px 0;
+  max-width: 100%;
+}
+
+.home__content {
+  display: flex;
+  align-items: center;
+  max-width: 1128px;
+  min-height: 100%;
+  margin: 0 auto;
+
+  justify-content: space-around;
+}
