@@ -1,15 +1,16 @@
 .home {
   background-color: red;
   padding: 52px 0;
+
   // height: 100%; //nic to nie zmienia
-}
 
-.home__content {
-  display: flex;
-  align-items: center;
-  max-width: 1128px;
-  // height: 80vh;
-  margin: 0 auto;
+  &__content {
+    display: flex;
+    align-items: center;
+    max-width: 1128px;
+    // height: 80vh;
+    margin: 0 auto;
 
-  justify-content: space-around;
+    justify-content: space-around;
+  }
 }

@@ -1,4 +1,41 @@
-.task-table {
+.taskTable {
+  border-radius: 10px;
+
+  width: 300px;
   padding: 10px;
-  background-color: lightgreen;
+  margin: 10px;
+  background-color: rgb(235, 236, 240);
+
+  border: 1px solid blue;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 10px; //top horizontal bottom
+  }
+
+  &__title {
+    font-weight: 600;
+  }
+
+  &__actionsBtn {
+    border-radius: 10px;
+    border: none;
+
+    &:hover {
+      background-color: lightgray;
+    }
+  }
+
+  &__container {
+  }
+
+  &__singleTask {
+    background: white;
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 #091e4240;
+  }
 }

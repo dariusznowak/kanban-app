@@ -3,19 +3,21 @@ import "../styles/TaskTable.scss";
 
 const TaskTable = () => {
   return (
-    <div className="task-table">
-      <div className="taskTable-header">
-        <p>To do</p>
-        <button className="taskTable-actionsBtn">...</button>
+    <div className="taskTable">
+      <div className="taskTable__header">
+        <p className="taskTable__title">To do</p>
+        <button className="taskTable__actionsBtn">
+          <img src="/images/actions-button.svg" alt="" />
+        </button>
       </div>
-      <div className="taskTable-container">
-        <div className="taskTable-singleTask">taskTable-singleTask</div>
-        <div className="taskTable-singleTask">taskTable-singleTask</div>
-        <div className="taskTable-singleTask">taskTable-singleTask</div>
-        <div className="taskTable-singleTask">taskTable-singleTask</div>
+      <div className="taskTable__container">
+        <div className="taskTable__singleTask">taskTable__singleTask</div>
+        <div className="taskTable__singleTask">taskTable__singleTask</div>
+        <div className="taskTable__singleTask">taskTable__singleTask</div>
+        <div className="taskTable__singleTask">taskTable__singleTask</div>
       </div>
-      <div className="taskTable-footer">
-        <button className="taskTable-addCardBtn">+ Add card</button>
+      <div className="taskTable__footer">
+        <button className="taskTable__addCardBtn">+ Add card</button>
       </div>
     </div>
   );
